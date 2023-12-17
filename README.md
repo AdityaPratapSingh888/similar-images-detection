@@ -18,7 +18,7 @@ This Python script is designed to identify and move duplicate images within a sp
 3. **Running the Script:**
     - Execute the script in a Python environment:
         ```
-        python script_name.py
+        python main.py
         ```
     - The script will process images, identify duplicates, move them to the "duplicates" directory, and create shortcuts to the original files.
 
