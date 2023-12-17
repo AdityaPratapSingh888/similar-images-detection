@@ -6,8 +6,7 @@ import win32com.client
 from win32com.client import Dispatch
 from tqdm import tqdm
 
-dir_path = r"F:\Aditya\Studies\College\01 Projects\00 Self\04 similar images detection\test data"
-# dir_path = input("Enter the directory path : ")
+dir_path = input("Enter the directory path : ")
 duplicates_dir = Path(dir_path) / "duplicates"
 if not duplicates_dir.exists():
     duplicates_dir.mkdir()
